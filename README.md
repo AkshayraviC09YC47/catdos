@@ -9,6 +9,10 @@ cd catdos
 
 python catdos.py -u website.com -p port
 
+python catdos.py -u website.com -p 80
+
+python catdos.py -u website.com -p 22
+
 or
 
 python catdos.py --url website.com --port port
