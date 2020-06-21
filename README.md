@@ -7,6 +7,10 @@ git clone https://github.com/AkshayraviC09YC47/catdos.git
 
 cd catdos
 
+pip install -r requirements.txt
+
+requirements.txt file contain modules(socket,requests,optparse)if you have already installed it you can skip that requirement installing process
+
 python catdos.py -u website.com -p port
 
 python catdos.py -u website.com -p 80
